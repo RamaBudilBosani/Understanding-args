@@ -1,0 +1,8 @@
+def add(*numbers):
+    total = 0
+    for n in numbers:
+        total += n
+        
+    return total
+print(add(10,20,30))
+print(add(2,3,4))
